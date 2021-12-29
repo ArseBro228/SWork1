@@ -1,0 +1,73 @@
+* {
+    margin: 10px auto;
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/1225736.jpg);
+    background-size: cover;
+}
+.osnova {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.osnova img {
+    max-width: 100%;
+    height: 100%;
+}
+.hero2 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(109, 103, 212) 0%, rgb(104, 63, 100) 100%);
+}
+.hero2 img {
+    position: relative;
+    top: -10px;
+    left: -55px;
+}
+.hero1 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(99, 28, 25) 0%, rgba(138,20,20,1) 100%);
+}
+.hero1 img {
+    position: relative;
+    left: -40px;
+    bottom: 10px;
+}
+.hero4 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(90deg, rgb(49, 21, 59) 0%, rgb(110, 9, 146) 100%);
+
+}
+.hero4 img {
+    position: relative;
+    bottom: 25px;
+    left: -55px;
+}
+.hero3 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(180deg, rgb(212, 40, 9) 0%, rgb(11, 6, 20) 100%);
+}
+.hero3 img {
+    position: relative;
+    left: -44px;
+    bottom: 10px;
+}
+.text {
+    color: white;
+    position: relative;
+    right: 10px;
+    top: 15px;
+}
+@media screen and (max-width:500px) {
+    .osnova {
+        width: 100%;
+    }
+}
